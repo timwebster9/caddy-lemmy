@@ -13,7 +13,9 @@
 
 http://feddit.deggymacets.com {
         import caddy-common
-        reverse_proxy   https://lemmy-ui
+        reverse_proxy   https://lemmy-ui {
+            header_up Host {upstream_hostport}
+        }
         log
 
     @lemmy {
