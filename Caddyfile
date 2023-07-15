@@ -11,7 +11,7 @@
     }
 }
 
-http://lemmy.webster.home {
+http://feddit.deggymacets.com {
         import caddy-common
         reverse_proxy   http://lemmy-ui
 
