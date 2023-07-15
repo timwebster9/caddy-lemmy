@@ -13,7 +13,7 @@
 
 http://feddit.deggymacets.com {
         import caddy-common
-        reverse_proxy   https://lemmy-ui--zg3xps2.internal.kinddesert-6d76c705.uksouth.azurecontainerapps.io
+        reverse_proxy   https://lemmy-ui
         log
 
     @lemmy {
